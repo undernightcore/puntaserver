@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'roboto-flex';
+    src: url('src/assets/fonts/RobotoFlex-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-primary);
+
+    --color-primary: #D1B59A;
+    --color-accent: #4E4E4E;
+    --color-background: #21211F;
+}
