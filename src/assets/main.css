@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'roboto-flex';
-    src: url('src/assets/fonts/RobotoFlex-Regular.ttf') format('truetype');
+    src: url('@/assets/fonts/RobotoFlex-Regular.ttf') format('truetype');
 }
 
 body {
