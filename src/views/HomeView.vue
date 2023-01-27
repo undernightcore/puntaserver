@@ -56,6 +56,11 @@ function openLink(url: string) {
           description="Aplicacion desarrollada (en compañia de mis compis de Mdona) para Space Apps Challenge 2022 organizado por NASA"
           @click="openLink('https://iss.puntaserver.com')"
         ></CardComponent>
+        <CardComponent
+          title="Mockos - Back (en desarrollo)"
+          description="Backend para mockos, creación de mocks con proyectos, regex y más"
+          @click="openLink('https://mockos-back.puntaserver.com')"
+        ></CardComponent>
       </div>
     </div>
   </div>
