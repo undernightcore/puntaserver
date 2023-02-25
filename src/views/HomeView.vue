@@ -19,17 +19,12 @@ function openLink(url: string) {
       </p>
     </div>
     <div class="home__section">
-      <h2>Servicios (desplegados en contenedores LXD)</h2>
+      <h2>Servicios (desplegados en contenedores LXD y Docker)</h2>
       <div class="home__section__grid">
         <CardComponent
           title="Coolify ❤"
           description="Despliegue automático para mis apps"
           @click="openLink('https://coolify.puntaserver.com')"
-        ></CardComponent>
-        <CardComponent
-          title="Mattermost"
-          description="Control de progreso de tareas"
-          @click="openLink('https://mattermost.puntaserver.com')"
         ></CardComponent>
         <CardComponent
           title="PGAdmin"
@@ -41,11 +36,6 @@ function openLink(url: string) {
           description="Administrador de contraseñas"
           @click="openLink('https://passbolt.puntaserver.com')"
         ></CardComponent>
-        <CardComponent
-          title="Zipline"
-          description="Plataforma para compartir ficheros"
-          @click="openLink('https://zipline.puntaserver.com')"
-        ></CardComponent>
       </div>
     </div>
     <div class="home__section">
@@ -55,6 +45,21 @@ function openLink(url: string) {
           title="ISS"
           description="Aplicacion desarrollada (en compañia de mis compis de Mdona) para Space Apps Challenge 2022 organizado por NASA"
           @click="openLink('https://iss.puntaserver.com')"
+        ></CardComponent>
+        <CardComponent
+          title="EMT - Front"
+          description="Como sería la aplicación de EMT Ticket si fuera una PWA"
+          @click="openLink('https://emt.puntaserver.com')"
+        ></CardComponent>
+        <CardComponent
+          title="EMT - Back"
+          description="Backend para EMT Ticker, manejo de usuarios, tickets, permisos y más!"
+          @click="openLink('https://emt-back.puntaserver.com')"
+        ></CardComponent>
+        <CardComponent
+          title="Mockos - Front (en desarrollo)"
+          description="Frontend para mockos, creación de mocks con proyectos, regex y más"
+          @click="openLink('https://mockos.puntaserver.com')"
         ></CardComponent>
         <CardComponent
           title="Mockos - Back (en desarrollo)"
