@@ -32,6 +32,11 @@ function openLink(url: string) {
           @click="openLink('https://pgadmin.puntaserver.com/pgadmin4')"
         ></CardComponent>
         <CardComponent
+          title="Minio"
+          description="Panel para S3 Storage"
+          @click="openLink('https://minio.puntaserver.com')"
+        ></CardComponent>
+        <CardComponent
           title="Passbolt"
           description="Administrador de contraseñas"
           @click="openLink('https://passbolt.puntaserver.com')"
