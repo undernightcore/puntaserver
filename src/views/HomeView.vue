@@ -41,6 +41,11 @@ function openLink(url: string) {
           description="Administrador de contraseñas"
           @click="openLink('https://passbolt.puntaserver.com')"
         ></CardComponent>
+        <CardComponent
+          title="Mealie"
+          description="Administrador de recetas, lista de la compra y plan de comida para la semana"
+          @click="openLink('https://mealie.puntaserver.com')"
+        ></CardComponent>
       </div>
     </div>
     <div class="home__section">
