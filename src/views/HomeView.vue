@@ -67,16 +67,6 @@ function openLink(url: string) {
           @click="openLink('https://emt-back.puntaserver.com')"
         ></CardComponent>
         <CardComponent
-          title="Mockos - Front (en desarrollo)"
-          description="Frontend para mockos, creación de mocks con proyectos, regex y más"
-          @click="openLink('https://mockos.puntaserver.com')"
-        ></CardComponent>
-        <CardComponent
-          title="Mockos - Back (en desarrollo)"
-          description="Backend para mockos, creación de mocks con proyectos, regex y más"
-          @click="openLink('https://mockos-back.puntaserver.com')"
-        ></CardComponent>
-        <CardComponent
           title="Churritos - Front"
           description="Frontend para churritos, encuestas para saber si pillamos bueñuelos o churros en la ofi"
           @click="openLink('https://churritos.puntaserver.com')"
