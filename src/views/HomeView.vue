@@ -8,7 +8,7 @@ function openLink(url: string) {
 <template>
   <div class="home">
     <div class="home__header">
-      <span>Puntaserver</span>
+      <span>Puntaserver.</span>
     </div>
     <div class="home__body">
       <h1>Bienvenido a Puntaserver!</h1>
